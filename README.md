@@ -69,6 +69,24 @@ The requirements for this feature are:
 Please add your answers to the questions below:
 
 1. How long did you spend on this challenge?
+  * I spent the full 4 hours in total on this challenge.
+
 2. In your opinion, what are features that Double could work on that would be helpful for assistants when managing agendas?
+  * Events could optionally be added with a time stamp and assistants could have the option to sort and filter events by their date and time. This would let assistants know if there are any tasks that have a strict deadline and better plan out how they will complete their agendas.
+  * Assistants could have the option to add notes to an event or to all events of a given department. This way the assisstants can document any unique requirements that their executive might have for an event. A more complex solution to this problem would be to allow for each event to contain subevents.
+  * Calendars should be added with a name (or have the option to add a name) so that it is more obvious to the assistant which calendar they are selecting when they are filtering by a certain calendar
+  * Events could have a circle next to them that the assistant could use to change the state of the event. All events could be incomplete by default and the assistant could click the circle to cycle through incomplete, in progress, and complete. Each of these stages could be indicated visually by changing the color of the circle or something simailar.
+  * While all events are important, some might be very important. The ability to mark a certain event(s) as important by clicking a small icon on the event that would slightly change its appearance (i.e give it a red border) could be useful for assistants. We could toggle this feature by some other means such as double-clicking if we didn't want to clutter up the UI too much. In addition to the other sorting/grouping methods that we've added during this project, we could also add the ability to group events by important. A more complex solution could be to optionally add one of multiple levels of priority to an event.
+  * A feature that allows assistants to add multiple "tags" to events could help them categorize events in ways that they find meaningful
+
 3. If you had more time, what would you add or change in the codebase?
-4. Do you have any constructive feedback that you would like to share with our team?
+  * I would add a seperate component for the header and all of its contents.
+  * I would change my solution to the "Handle errors" challenge to render an error message above the list of events on the UI as opposed to the alert box that I used.
+  * I would set up a way to better test my solution to the first challenge if I were given more time.
+  * I would add some sort of visual indicator for when one of the sorting/grouping options is togglable.
+  * I would better style the dropdown list for sorting by calendars. In fact I would probably not use a select tag at all in favor of a custom dropdown menu.
+  * Sorting by a calendar takes a second at least on my machine. I would look into redesigning that process so that it is more efficient as well as add a loading spinner somewhere that indicates the results are not yet being displayed. 
+  * I would look for ways that I could replace useMemo with useEffect and useState for tasks that aren't computationally intensive
+
+6. Do you have any constructive feedback that you would like to share with our team?
+  * I enjoyed this take home challenge more than others because it felt like you were working on a real product. One improvement could be to add a small section in the readme that describes how events, calendars, and agendas are related. It's not very difficult to figure out by reading the code, but it would give the coder a little extra time to work on their solution. I would also love to hear any constructive feedback that you (the reader) may have for me that could help me improve my skills. 
