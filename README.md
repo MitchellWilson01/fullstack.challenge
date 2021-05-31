@@ -80,13 +80,13 @@ Please add your answers to the questions below:
   * A feature that allows assistants to add multiple "tags" to events could help them categorize events in ways that they find meaningful
 
 3. If you had more time, what would you add or change in the codebase?
+  * I would set up a way to better test my solution to the first challenge if I were given more time. If adding the date object to the useMemo dependency array does not work, I would try using an interval that forces an update of an "hour" variable every minute or so that would be used in the memo (or perhaps a useEffect).
   * I would add a seperate component for the header and all of its contents.
   * I would change my solution to the "Handle errors" challenge to render an error message above the list of events on the UI as opposed to the alert box that I used.
-  * I would set up a way to better test my solution to the first challenge if I were given more time.
   * I would add some sort of visual indicator for when one of the sorting/grouping options is togglable.
   * I would better style the dropdown list for sorting by calendars. In fact I would probably not use a select tag at all in favor of a custom dropdown menu.
   * Sorting by a calendar takes a second at least on my machine. I would look into redesigning that process so that it is more efficient as well as add a loading spinner somewhere that indicates the results are not yet being displayed. 
   * I would look for ways that I could replace useMemo with useEffect and useState for tasks that aren't computationally intensive
 
-6. Do you have any constructive feedback that you would like to share with our team?
+4. Do you have any constructive feedback that you would like to share with our team?
   * I enjoyed this take home challenge more than others because it felt like you were working on a real product. One improvement could be to add a small section in the readme that describes how events, calendars, and agendas are related. It's not very difficult to figure out by reading the code, but it would give the coder a little extra time to work on their solution. I would also love to hear any constructive feedback that you (the reader) may have for me that could help me improve my skills. 
