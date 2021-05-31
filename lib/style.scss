@@ -30,6 +30,19 @@
   font-weight: 500;
 }
 
+// BUTTONS
+@mixin button-select {
+  border-radius: 8px;
+  padding: 6px 7px;
+  z-index: 10;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  box-shadow: 0 0px 1px rgba(0,0,0,0.12), 
+              0 1px 2px rgba(0,0,0,0.12), 
+              0 2px 4px rgba(0,0,0,0.12)
+}
+
 // COLORS
 
 $blackColor: #2e3247;

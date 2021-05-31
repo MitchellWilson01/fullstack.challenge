@@ -24,11 +24,21 @@
 }
 
 .header {
-  display: block;
-  padding: 16px 0 12px 16px;
+  display: flex;
+  justify-content: space-between;
+  padding: 16px 16px 12px 16px;
 }
 
 .header {
   @include title-text;
   color: $blackColor;
+}
+
+.options {
+  display: flex;
+  flex-direction: column;
+
+  @media only screen and (min-width: 365px) {
+    flex-direction: row;
+  }
 }

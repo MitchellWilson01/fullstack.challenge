@@ -1,0 +1,10 @@
+@import 'lib/style';
+
+.button {
+  @include body-medium-text;
+  @include button-select;
+
+  @media only screen and (min-width: 365px) { 
+    margin-right: 8px;
+  }
+}

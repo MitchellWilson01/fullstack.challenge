@@ -1,0 +1,19 @@
+@import 'lib/style';
+
+.block {
+  margin-bottom: 16px;
+}
+
+.title {
+  @include body-medium-text;
+  color: $blackColor;
+  padding-left: 16px;
+}
+
+.line {
+  width: calc(100% - 32px);
+  border: none;
+  height: 1px;
+  color: $darkGrayColor;
+  background-color: $darkGrayColor;
+}
